@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <title>Yashimitsu - Vidrieria</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -31,7 +31,6 @@
                    </button>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-1">
-                    
                 </div>
             </div>
         </nav>
