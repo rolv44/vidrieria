@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "InnovatioCoorp">
+<html xmlns="Cesar O'Higgins" xml:lang="en" lang="en">
+<head>
+<title>Yashimitsu - Vidrieria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="layout.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/cufon-replace.js" type="text/javascript"></script>
+<script src="js/Myriad_Pro_400.font.js" type="text/javascript"></script>
+<script src="js/Myriad_Pro_600.font.js" type="text/javascript"></script>
+<!--[if lt IE 7]>
+	<link href="ie_style.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+<body id="page2">
+<!-- header -->
+<div id="header">
+	<div class="container">
+<!-- .logo -->
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+		</div>
+<!-- /.logo -->
+		<form action="" id="search-form">
+			<fieldset>
+				<input type="text" class="text" /><input type="submit" value="Search" class="submit" />
+			</fieldset>
+		</form>
+<!-- .nav -->
+		<ul class="nav">
+			<li><a href="index.html" ><span>Home</span></a></li>
+			<li><a href="acerca.html" class="current"><span>Acerca</span></a></li>
+			<li><a href="productos.html"><span>Productos</span></a></li>
+			<li><a href="servicios.html"><span>Servicios</span></a></li>
+			<li><a href="contactos.html"><span>Contactos</span></a></li>
+		</ul>
+<!-- /.nav -->
+<!-- .extra-box -->
+		<div class="extra-box">
+			<div class="inner">
+				<h2>architectural<span>services for customers</span></h2>
+				<ul>
+					<li><label for="">Vidrios de todo tipo</label></li>
+					<li><label for="">Ferreteria en General</label></li>
+					<li><label for="">Consultores especialistas</label></li>
+					<li><label for="">Servicio de Cortes</label></li>
+					<li><label for="">Transporte</label></li>
+					<li><label for="">Asesoría</label></li>
+				</ul>
+				<div class="wrapper"><a href="contactos.html" class="link1"><em><b>Contactenos</b></em></a></div>
+			</div>
+		</div>
+<!-- /.extra-box -->
+<!-- .intro-text -->
+		<div class="intro-text">
+			<h1>Vidrios<span>y aluminios</span><em>los mejores del pucallpa</em></h1>
+			<p>Empresa dedicada a la comercializacion de vidrios, aluminios, vitrinas, peceras y mas. Somos los mejores de Pucallpa</p>
+			<div class="wrapper"><a href="servicios.html" class="button">Mas Servicios</a></div>
+		</div>
+<!-- /.intro-text -->
+	</div>
+  </div>
+<!-- content -->
+<div id="content"><div class="ic">Diseñado por Innovatio Coorporation</div>
+	<div class="container">
+		<div class="wrapper">
+			<div class="aside">
+				<div class="indent">
+					<h3>Servicios</h3>
+					<ul class="list1">
+						<li><label for="">Colocacion de Vidrios</label></li>
+					    <li><label for="">Transportes de Vidrios</label></li>
+					    <li><label for="">Transportes de Aluminios</label></li>
+					    <li><label for="">Siliconas</label></li>
+					    <li><label for="">Garrochas</label></li>
+					    <li><label for="">Asesoría</label></li>
+					    <li><label for="">Pernos</label></li>
+					    <li><label for="">Herramientas</label></li>
+					    <li><label for="">Corte de Vidrios</label></li>
+					    <li><label for="">Pulido de Vidrios</label></li>
+
+					</ul>
+				</div>
+<!-- .box -->
+			
+<!-- /.box -->
+			</div>
+			<div>
+			   
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<div id="footer">
+	<div class="container">
+		<a rel="nofollow" href="https://www.facebook.com/InnovatioCoorp/" target="_blank">Sitio Web diseñado por Innovatio Coorporation </a> 
+		<h4>Diseñado por Cesar O'Higgins</h4>
+	</div>
+</div>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

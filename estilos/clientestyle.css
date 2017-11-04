@@ -1,0 +1,110 @@
+* {margin:0;padding:0}
+html, body {height:100%}
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.25em;color:#4a4a4a}
+img {border:0;vertical-align:top;text-align:left}
+ul, ol {list-style:none}
+.container {width:960px;margin:0 auto;font-size:.875em;position:relative;}
+#header {height:813px;width:100%;background:url(../images/header-tail.gif) 0 0 repeat-x #f7f7f7}
+#footer {background:url(../images/footer-bg.gif) 0 0 repeat-x #f2f2f2;text-align:center;padding:45px 0}
+input, select, textarea {font-family:Arial, Helvetica, sans-serif; font-size:1em;vertical-align:middle;font-weight:normal}
+a {color:red;outline:none}
+h1 {font-size:36px;line-height:1.2em;color:#d60c0c;font-weight:600;margin-bottom:22px}
+h1 span {display:block;font-size:30px;line-height:1.2em;color:#4a4a4a;margin-top:-10px}
+h1 em {display:block;font-style:normal;font-size:24px;line-height:1.2em;color:#919191}
+h2 {font-size:36px;line-height:1.2em;margin-bottom:10px}
+h2 em {font-size:14px;color:#838383;display:block;text-transform:uppercase;margin-top:-17px;font-weight:400}
+h3 {font-size:30px;line-height:1.2em;color:#4a4a4a;font-weight:400;margin-bottom:20px}
+h4 {font-size:1em;color:#d60c0c;margin-bottom:8px}
+h5 {font-size:1em;color:#d60c0c}
+h6 {font-size:1em}
+.button {float:left;width:137px;height:40px;line-height:40px;color:#fff;text-align:center;text-decoration:none;background:url(../images/button.gif) no-repeat 0 0}
+
+input[type=number]{
+    width: 90px;
+} 
+.button:hover {text-decoration:underline}
+#header .logo {position:absolute;left:8px;top:20px}
+#header .nav {position:absolute;right:0;top:91px}
+#header .nav li {float:left}
+#header .nav li a {float:left;color:#3c3c3c;text-decoration:none;font-size:17px;text-transform:uppercase;font-weight:400}
+#header .nav li a span {float:left;padding:26px 32px 15px 32px}
+#header .nav li a:hover, #header .nav li a.current {background:url(../images/nav-left.gif) no-repeat 0 0;color:#d60c0c}
+.tabla1 {position:absolute;top: 100px;left:250px;width: 350px; }
+.btG{width:140px;height:44px;overflow: hidden;color:#fff;text-align:center;background:url(../images/button.gif) no-repeat 0 0}
+.dcliente{position: absolute;top:200px;left: 35px;width: 1300px;height: 620px; overflow: scroll} 
+#reg1{ 
+    position: absolute; 
+    background: #80deea;  
+    width: 100%;
+    opacity: 0.97; 
+    height: 100%;
+    top: 0px;
+    left: 0px;  
+    z-index: 1;
+    visibility: hidden;
+}
+#reg2 {
+    position: absolute; 
+    background: #e0f2f1; 
+    border: solid #fff 10px; 
+    height: 350px; 
+    width: 800px; 
+    top: 17%; 
+    left: 20%;
+    border-radius: 7px;
+}
+
+#reg1 .lab1{
+    text-align: center;
+    position: relative;
+}
+.lab1 #cerrar{
+    position: absolute;
+    left: 753px;
+    top: 1px;
+}
+.dcliente .bus{
+    position: relative;
+    left: 890px;
+}
+.dcliente #buscar{
+    position: relative;
+    left: 900px;
+}
+#editar{ 
+    position: absolute; 
+    background: #80deea;  
+    width: 100%;
+    opacity: 0.97; 
+    height: 100%;
+    top: 0px;
+    left: 0px;  
+    z-index: 1;
+    visibility: hidden;
+}
+#ven_edit {
+    position: absolute; 
+    background: #e0f2f1; 
+    border: solid #fff 10px; 
+    height: 350px; 
+    width: 500px; 
+    top: 17%; 
+    left: 33%;
+    border-radius: 7px;
+}
+#ven_edit #cerrar{
+    position: absolute;
+    left: 453px;
+    top: 1px;
+}
+#ven_edit .label_edit{
+    text-align: center;
+    position: relative;
+}
+#ven_edit .tabla2{
+    position: relative;
+    left: 95px;
+}
+
+
+

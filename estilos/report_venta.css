@@ -1,0 +1,50 @@
+* {margin:0;padding:0}
+html, body {height:100%}
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.1em;color:#4a4a4a}
+img {border:0;vertical-align:top;text-align:left}
+ul, ol {list-style:none}
+.container {width:960px;margin:0 auto;font-size:.875em;position:relative;}
+#header {height:813px;width:100%;background:url(../images/header-tail.gif) 0 0 repeat-x #f7f7f7}
+#footer {background:url(../images/footer-bg.gif) 0 0 repeat-x #f2f2f2;text-align:center;padding:45px 0}
+input, select, textarea {font-family:Arial, Helvetica, sans-serif; font-size:1em;vertical-align:middle;font-weight:normal}
+a {color:red;outline:none}
+h1 {font-size:36px;line-height:1.2em;color:#d60c0c;font-weight:600;margin-bottom:22px}
+h1 span {display:block;font-size:30px;line-height:1.2em;color:#4a4a4a;margin-top:-10px}
+h1 em {display:block;font-style:normal;font-size:24px;line-height:1.2em;color:#919191}
+h2 {font-size:36px;line-height:1.1em;margin-bottom:10px}
+h2 em {font-size:14px;color:#838383;display:block;text-transform:uppercase;margin-top:-17px;font-weight:400}
+h3 {font-size:30px;line-height:1.1em;color:#4a4a4a;font-weight:400;margin-bottom:20px}
+h4 {font-size:1em;color:#d60c0c;margin-bottom:8px}
+h5 {font-size:1em;color:#d60c0c}
+h6 {font-size:1em}
+.button {float:left;width:137px;height:40px;line-height:40px;color:#fff;text-align:center;text-decoration:none;background:url(../images/button.gif) no-repeat 0 0}
+#header .logo {position:absolute;left:8px;top:20px}
+#header .nav {position:absolute;right:0;top:91px}
+#header .nav li {float:left}
+#header .nav li a {float:left;color:#3c3c3c;text-decoration:none;font-size:17px;text-transform:uppercase;font-weight:400}
+
+
+.caja{      position: absolute;
+            top: 170px;
+             left: 30%;
+            background: #e0f7fa;
+            border-radius: 7px;
+            margin: auto;
+            max-width: 250px;
+            padding: 20px;
+            border: 1px solid #BDBDBD;
+        }
+        .caja select{
+            width: 100%;
+            font-size: 16px;
+            padding: 5px;
+        }
+        .resultados{
+            position: absolute;
+            top: 290px;
+            left: 50px;
+            margin-top: 40px;
+            height: 470px;
+            width: 1200px;
+            overflow: scroll;
+        }

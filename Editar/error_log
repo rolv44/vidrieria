@@ -1,0 +1,1 @@
+[17-Apr-2017 16:41:20 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home1/vidrieri/public_html/Editar/editar_cliente.php on line 15

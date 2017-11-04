@@ -1,0 +1,1 @@
+[16-Jun-2017 06:11:05 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/vidrieri/public_html/productoAdmin.php on line 181

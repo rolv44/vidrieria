@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.25em;
+    color: #4a4a4a
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+    text-align: left
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: .875em;
+    position: relative;
+}
+
+#header {
+    height: 713px;
+    width: 100%;
+    background: url(../images/header-tail.gif) 0 0 repeat-x #f7f7f7
+}
+
+#footer {
+    background: url(../images/footer-bg.gif) 0 0 repeat-x #f2f2f2;
+    text-align: center;
+    padding: 45px 0
+}
+
+input,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    vertical-align: middle;
+    font-weight: normal
+}
+
+a {
+    color: red;
+    outline: none
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 1.2em;
+    color: #d60c0c;
+    font-weight: 600;
+    margin-bottom: 22px
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-bottom: 10px
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 1.2em;
+    color: #4a4a4a;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+h4 {
+    font-size: 1em;
+    color: #d60c0c;
+    margin-bottom: 8px
+}
+
+h5 {
+    font-size: 1em;
+    color: #d60c0c
+}
+
+h6 {
+    font-size: 1em
+}
+
+.usu {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    background: #80deea;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    border-radius: 7px;
+    border: 5px solid deepskyblue;
+}
+
+.usu label {
+    font-style: normal;
+    font-size: 22px;
+}
+
+.usu a {
+    float: right;
+}
+
+.button {
+    float: left;
+    width: 137px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: url(../images/button.gif) no-repeat 0 0
+}
+
+input[type=number] {
+    width: 90px;
+}
+
+.button:hover {
+    text-decoration: underline
+}
+
+.venta {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 463px;
+    border: 5px solid #80deea;
+}
+
+.venta h4 {
+    background: #80deea
+}
+
+.venta .tblventa {
+    background: #e1f5fe;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.tblventa td input[type=text] {
+    width: 200px
+}
+
+.tblventa td {
+    width: 200px;
+    text-align: center;
+}
+
+#header .logo {
+    position: absolute;
+    left: 8px;
+    top: 20px
+}
+
+#header .nav {
+    position: absolute;
+    right: 220px;
+    top: 91px
+}
+
+#header .nav li {
+    float: left
+}
+
+#header .nav li a {
+    float: left;
+    color: #3c3c3c;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+#header .nav li a span {
+    float: left;
+    padding: 26px 32px 15px 32px
+}
+
+#header .nav li a:hover,
+#header .nav li a.current {
+    background: url(../images/nav-left.gif) no-repeat 0 0;
+    color: #d60c0c
+}
+
+.btG {
+    width: 140px;
+    height: 44px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    background: url(../images/button.gif) no-repeat 0 0
+}
+
+#bcliente {
+    position: absolute;
+    background: #757575;
+    width: 100%;
+    opacity: 0.97;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#bcliente2 {
+    position: absolute;
+    background: #1a237e;
+    border: solid #fff 10px;
+    width: 1050px;
+    height: 550px;
+    top: 10%;
+    left: 10%;
+    border-radius: 7px;
+}
+
+#bcliente2 #cerrar {
+    position: absolute;
+    left: 1002px;
+    top: 1px;
+}
+
+.lab1 {
+    text-align: center;
+    background: deepskyblue;
+    color: #fff;
+}
+
+.b {
+    position: absolute;
+    left: 499px
+}
+
+#bcliente .tablacli {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+    width: 1030px;
+    height: 455px;
+    overflow: auto;
+}
+
+#busprod #cerrar {
+    position: absolute;
+    left: 853px;
+    top: 1px;
+}
+
+#vemer2 {
+    position: absolute;
+    background: #757575;
+    width: 100%;
+    opacity: 0.97;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#busprod {
+    position: absolute;
+    background: #1a237e;
+    border: solid #fff 10px;
+    width: 1070px;
+    height: 550px;
+    top: 10%;
+    left: 10%;
+    border-radius: 7px;
+}
+
+#busprod .tablaproduct {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+    width: 1050px;
+    height: 450px;
+    overflow: auto;
+}
+
+#busprod #cerrar {
+    position: absolute;
+    top: 1px;
+    left: 1023px;
+}
+
+.agreg {
+    position: absolute;
+    top: 200px;
+    height: 70px;
+    left: 550px;
+    width: 370px;
+    padding-left: 5px;
+    padding-top: 25px;
+    background: #e1f5fe;
+    border: 2px solid #80deea;
+}
+
+#tblcarro {
+    width: 757px;
+    border: 2px solid #80deea;
+    background: #e1f5fe;
+}
+
+.tblagregar {
+    background: #e1f5fe;
+}
+
+#serv {
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    background: #e1f5fe;
+    border: 2px solid #80deea;
+}
+
+.scrolltbl {
+    position: absolute;
+    overflow: scroll;
+    width: 775px;
+    height: 300px;
+    top: 320px;
+    left: 550px;
+}
